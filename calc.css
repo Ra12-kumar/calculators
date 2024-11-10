@@ -1,0 +1,42 @@
+.container{
+    height:500px;
+    width:350px;
+
+    
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.input [type=text]{
+    width:345px;
+    overflow:hidden;
+    height:50px;
+    color:black;
+    font-size:20px;
+    border:0px;
+    
+}
+button{
+    height:80px;
+    width:80px;
+    margin-left:4px;
+    margin-top:10px;
+    border-radius:50%;
+    border:none;
+}
+.btn{
+    
+    font-size:20px;
+    color:black;
+}
+#del{
+    background-color:red;
+}
+#equal{
+    background-color:green;
+}
+.btn{
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.5);
+}
